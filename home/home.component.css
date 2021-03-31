@@ -1,0 +1,88 @@
+.home {
+  margin: 20px;
+}
+.home .title {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.home .nome {
+  font-size: 1.3rem;
+}
+.home .input {
+  width: 99%;
+}
+.home .row {
+  height: 100%;
+}
+.home .cargo {
+width: 45%;
+display: inline-block;
+font-size: 1.3rem;
+text-align: start;
+margin-left: 0rem;
+
+}
+.home .foto {
+width: 45%;
+display: inline-block;
+font-size: 1.3rem;
+text-align: start;
+margin-left: 4rem;
+}
+.home .col {
+  height: 100%;
+}
+.home .inputc {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+.home .inputf {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+.home .endereço {
+  font-size: 1.3rem;
+}
+.home .inputed {
+  width: 99%;
+}
+.home .row2 {
+  height: 100%;
+}
+.home .telefone {
+width: 45%;
+display: inline-block;
+font-size: 1.3rem;
+text-align: start;
+margin-left: 0rem;
+
+}
+.home .email {
+width: 45%;
+display: inline-block;
+font-size: 1.3rem;
+text-align: start;
+margin-left: 4rem;
+}
+.home .col2 {
+  height: 100%;
+}
+.home .inputte {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+.home .inputem {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+.home .resumo {
+  font-size: 1.3rem;
+}
+.home .inputres {
+  width: 99%;
+}
