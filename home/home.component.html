@@ -1,36 +1,39 @@
+<html>
 <mat-card class="home mat-elevativion-z3">
-  <mat-card-title class="title">Inorfomações Gerais</mat-card-title>
-  <form>
+  <mat-card-title class="title">Informações Gerais</mat-card-title>
+  <form class='form'>
     <label class="nome">Nome:</label>
     <div>
 <input class='input'>
     </div>
-    <div class='row'>
-<div class='cargo'>Cargo pretendido</div>
-<div class='foto'>Foto</div>
-    </div>
-    <div class='col'>
-      <input class='inputc'>
+    <div class='tudo'>
+    <div class='esquerda'>
+<div class='cargo'>Cargo pretendido:</div>
+<input class='inputc'>
+</div>
+    <div class='direita'>
+      <div class='foto'>Foto
+        <button (click)="Enviar()">Enviar Arquivo</button>
+      </div>
       <input class='inputf'>
     </div>
-    <label class='endereço'>Endereço</label>
-    <div>
+  </div>
+  <label class='endereço'>Endereço:</label>
+  <div>
 <input class='inputed'>
-    </div>
-    <div class='row2'>
-<div class='telefone'>Telefone</div>
-<div class='email'>E-mail</div>
-    </div>
-    <div class='col2'>
-      <input class='inputte'>
-      <input class='inputem'>
-    </div>
-    <div>
-      <label class='resumo'>Resumo</label>
-    <div>
+  </div>
+  <div class='tudo1'>
+  <div class='esquerda1'>
+<div class='telefone'>Telefone:</div>
+<input class='inputtel'>
+</div>
+  <div class='direita1'>
+    <div class='email'>E-mail:</div>
+    <input class='inputem'>
+  </div>
+</div>
+<div class='resumo'>Resumo:</div>
 <input class='inputres'>
-    </div>
-    </div>
-
   </form>
 </mat-card>
+</html>

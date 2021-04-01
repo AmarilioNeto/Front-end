@@ -6,83 +6,123 @@
   font-weight: 300;
   line-height: 1.2;
 }
+.home .form{
+  padding: .5rem .25rem;
+}
 .home .nome {
   font-size: 1.3rem;
+  margin: .5rem;
 }
 .home .input {
-  width: 99%;
-}
-.home .row {
-  height: 100%;
-}
-.home .cargo {
-width: 45%;
-display: inline-block;
-font-size: 1.3rem;
-text-align: start;
-margin-left: 0rem;
+  width: 98%;
+  margin: .5rem;
+  padding: .5rem .75rem;
 
 }
-.home .foto {
-width: 45%;
-display: inline-block;
+.home .tudo{
+  width: 100%;
+  text-align: center;
+  margin: .5rem ;
+}
+.home .esquerda {
+  width: 50%;
+  text-align: start;
+  display: inline-block;
+}
+.home .cargo {
+width: 100%;
 font-size: 1.3rem;
 text-align: start;
-margin-left: 4rem;
-}
-.home .col {
-  height: 100%;
+margin-top: .5rem;
+margin-bottom: .5rem;
 }
 .home .inputc {
-  width: 49%;
+  width: 95%;
+  text-align: start;
+  padding: .5rem .5rem;
+  margin-top: .5rem;
+margin-bottom: .5rem;
+}
+.home .direita{
+  width: 50%;
+  text-align: start;
   display: inline-block;
-  text-align: center;
+}
+.home .foto {
+  width: 100%;
+  font-size: 1.3rem;
+  text-align: start;
+  margin-top: .5rem;
+margin-bottom: .5rem;
 }
 .home .inputf {
-  width: 49%;
+  width: 98%;
   display: inline-block;
-  text-align: center;
+  text-align: start;
+  padding: .5rem .25rem;
+  margin-top: .5rem;
+margin-bottom: .5rem;
 }
 .home .endereço {
   font-size: 1.3rem;
+  margin: .5rem;
 }
 .home .inputed {
-  width: 99%;
+  width: 98%;
+  padding: .5rem .75rem;
+  margin: .5rem;
 }
-.home .row2 {
-  height: 100%;
+.home .tudo1 {
+  width: 100%;
+  text-align: center;
+  margin: 1rem;
+}
+.home .esquerda1 {
+  width: 50%;
+  text-align: start;
+  display: inline-block;
 }
 .home .telefone {
-width: 45%;
-display: inline-block;
+width: 100%;
 font-size: 1.3rem;
 text-align: start;
-margin-left: 0rem;
-
+margin-top: .5rem;
+margin-bottom: .5rem;
+}
+.home .inputtel {
+  width: 95%;
+  text-align: start;
+  padding: .5rem .25rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .direita1 {
+  width: 50%;
+  text-align: start;
+  display: inline-block;
 }
 .home .email {
-width: 45%;
-display: inline-block;
-font-size: 1.3rem;
-text-align: start;
-margin-left: 4rem;
-}
-.home .col2 {
-  height: 100%;
-}
-.home .inputte {
-  width: 49%;
-  display: inline-block;
-  text-align: center;
+  width: 100%;
+  font-size: 1.3rem;
+  text-align: start;
+  margin-top: .5rem;
+margin-bottom: .5rem;
 }
 .home .inputem {
-  width: 49%;
+  width: 97%;
   display: inline-block;
-  text-align: center;
+  text-align: start;
+  padding: .5rem .25rem;
+  margin-top: .5rem;
+margin-bottom: .5rem;
+
 }
 .home .resumo {
   font-size: 1.3rem;
+  margin: 1rem;
 }
 .home .inputres {
   width: 99%;
+  display: block;
+  padding: 1.5rem .5rem
 }

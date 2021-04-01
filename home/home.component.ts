@@ -5,10 +5,11 @@ import * as core from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements core.OnInit {
-
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  Enviar(): void {
+    console.log('Enviar Arquivo!');
+  }
 }
