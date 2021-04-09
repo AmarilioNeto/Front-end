@@ -1,0 +1,81 @@
+<html>
+<mat-card class="home mat-elevativion-z3">
+  <mat-card-title class="title">Informações Gerais</mat-card-title>
+  <form class='form'>
+    <label class="nome">Nome:</label>
+    <div>
+<input class='input'>
+    </div>
+    <div class='tudo'>
+    <div class='esquerda'>
+<div class='cargo'>Cargo pretendido:</div>
+<input class='inputc'>
+</div>
+ <div div class='direita'>
+      <div class='foto'>Foto
+        <button (click)="Enviar()">Enviar Arquivo</button>
+      </div>
+      <input class='inputf'>
+    </div>
+  </div>
+  <label class='endereço'>Endereço:</label>
+  <div>
+<input class='inputed'>
+  </div>
+  <div class='tudo1'>
+  <div class='esquerda1'>
+<div class='telefone'>Telefone:</div>
+<input class='inputtel'>
+</div>
+  <div class='direita1'>
+    <div class='email'>E-mail:</div>
+    <input class='inputem'>
+  </div>
+</div>
+<div class='resumo'>Resumo:</div>
+<input class='inputres'>
+<br>
+<div class='formação'>Formação</div>
+  <div class='addfor'>Clique em "Adicionar +" para add mais de uma formação</div>
+  <div class='botãofor'>
+<button (click)='adicinarfor()'>Adiconar +</button>
+  </div>
+<br>
+  <ul>
+    <div *ngFor="let form of formac">
+    <div><input value="curso"></div>
+    <br>
+    <div><input value="instituição"/></div>
+    <br>
+       <div><input value="conclusão"></div>
+       <br>
+        <div><button (click)='removerfor()'>Remover</button> </div>
+  </div>
+  </ul>
+  <br>
+  <div class='experiencia'>Expêrincias</div>
+  <div class='addexp'>Clique em "Adiconar Expêriencia" para add mais de uma Expêriencia</div>
+  <div class='botãoexp'>
+<button (click)='adcionarexper()'>Adiconar Expêriencia </button>
+  </div>
+    <ul>
+      <div *ngFor="let expe of exper">
+      <div><input value="cargo"></div>
+      <br>
+     <div> <input value="empresa"/></div>
+     <br>
+      <div>
+      <input value="descrição"></div>
+      <br>
+      <div><input value="inicio"></div>
+      <br>
+      <div><input value="fim"></div>
+      <br>
+      <div><button (click)='removerexper()'>Remover</button></div>
+    </div>
+    </ul>
+    <br>
+    <br>
+  </form>
+</mat-card>
+</html>
