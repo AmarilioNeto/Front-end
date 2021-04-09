@@ -17,6 +17,7 @@
   width: 98%;
   margin: .5rem;
   padding: .5rem .75rem;
+  display: flexbox;
 
 }
 .home .tudo{
@@ -71,6 +72,7 @@ margin-bottom: .5rem;
   width: 98%;
   padding: .5rem .75rem;
   margin: .5rem;
+  display: flexbox;
 }
 .home .tudo1 {
   width: 100%;
@@ -123,6 +125,21 @@ margin-bottom: .5rem;
 }
 .home .inputres {
   width: 99%;
-  display: block;
+  display: flexbox;
   padding: 1.5rem .5rem
+}
+
+.home .formação {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+ .home .addfor{
+  font-size: 1rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .botão {
+margin-top: .5rem;
+margin-bottom: .5rem;
 }

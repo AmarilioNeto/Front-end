@@ -11,7 +11,7 @@
 <div class='cargo'>Cargo pretendido:</div>
 <input class='inputc'>
 </div>
-    <div class='direita'>
+ <div div class='direita'>
       <div class='foto'>Foto
         <button (click)="Enviar()">Enviar Arquivo</button>
       </div>
@@ -34,6 +34,48 @@
 </div>
 <div class='resumo'>Resumo:</div>
 <input class='inputres'>
+<br>
+<div class='formação'>Formação</div>
+  <div class='addfor'>Clique em "Adicionar +" para add mais de uma formação</div>
+  <div class='botãofor'>
+<button (click)='adicinarfor()'>Adiconar +</button>
+  </div>
+<br>
+  <ul>
+    <div *ngFor="let form of formac">
+    <div><input value="curso"></div>
+    <br>
+    <div><input value="instituição"/></div>
+    <br>
+       <div><input value="conclusão"></div>
+       <br>
+        <div><button (click)='removerfor()'>Remover</button> </div>
+  </div>
+  </ul>
+  <br>
+  <div class='experiencia'>Expêrincias</div>
+  <div class='addexp'>Clique em "Adiconar Expêriencia" para add mais de uma Expêriencia</div>
+  <div class='botãoexp'>
+<button (click)='adcionarexper()'>Adiconar Expêriencia </button>
+  </div>
+    <ul>
+      <div *ngFor="let expe of exper">
+      <div><input value="cargo"></div>
+      <br>
+     <div> <input value="empresa"/></div>
+     <br>
+      <div>
+      <input value="descrição"></div>
+      <br>
+      <div><input value="inicio"></div>
+      <br>
+      <div><input value="fim"></div>
+      <br>
+      <div><button (click)='removerexper()'>Remover</button></div>
+    </div>
+    </ul>
+    <br>
+    <br>
   </form>
 </mat-card>
 </html>
