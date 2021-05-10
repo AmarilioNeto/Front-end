@@ -119,6 +119,10 @@ margin-bottom: .5rem;
 margin-bottom: .5rem;
 
 }
+.home .submit {
+  text-align:justify;
+  margin-left: 51%;
+}
 .home .resumo {
   font-size: 1.3rem;
   margin: 1rem;
@@ -126,7 +130,22 @@ margin-bottom: .5rem;
 .home .inputres {
   width: 99%;
   display: flexbox;
-  padding: 1.5rem .5rem
+  padding: 1.5rem .5rem;
+  text-align: start;
+  text-rendering: auto;
+  letter-spacing:normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  appearance: auto;
+  flex-direction: column;
+  cursor: text;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  column-count: initial;
+  font: italic;
+  resize:horizontal;
 }
 
 .home .formação {
@@ -142,4 +161,161 @@ margin-bottom: .5rem;
 .home .botão {
 margin-top: .5rem;
 margin-bottom: .5rem;
+}
+.home .tudo2 {
+  width: 100%;
+  text-align: center;
+}
+.home .esquerda2 {
+  width: 50%;
+  text-align: start;
+  display: inline-block;
+  margin-left: 0rem;
+}
+.home .curso{
+  font-size: 1.5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .inputcur {
+  width: 95%;
+  text-align: start;
+  padding: .5rem .25rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .direita2 {
+  width: 50%;
+  text-align: start;
+  display: inline-block;
+  margin-left: 0rem;
+}
+.home .instituição {
+  font-size: 1.5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .inputinst {
+  width: 95%;
+  text-align: start;
+  padding: .5rem .25rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .esquerda3 {
+  width: 50%;
+  text-align: start;
+  display: inline-flexbox;
+  margin-left: 0rem;
+}
+.home .conclusão {
+  font-size: 1.5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .inputcon {
+  width: 95%;
+  text-align: start;
+  padding: .5rem .25rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .remover {
+  font-size: 1rem;
+  background-color: red;
+  border-color: red;
+}
+.home .tudo3 {
+  width: 100%;
+  text-align: center;
+}
+.home .esquerda4 {
+  width: 50%;
+  text-align: start;
+  display: inline-block;
+  margin-left: 0rem;
+}
+.home .cargo {
+  font-size: 1.5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .inputcar {
+  width: 95%;
+  text-align: start;
+  padding: .5rem .25rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .direita3 {
+  width: 50%;
+  text-align: start;
+  display: inline-block;
+  margin-left: 0rem;
+}
+.home .empresa {
+  font-size: 1.5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .inputemp {
+  width: 95%;
+  text-align: start;
+  padding: .5rem .25rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .esquerda5 {
+  width: 50%;
+  text-align: start;
+  display: inline-block;
+  margin-left: 0rem;
+}
+.home .descrição{
+  font-size: 1.5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .inputdesc {
+  width: 95%;
+  text-align: start;
+  padding: .5rem .25rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .direita4 {
+  width: 25%;
+  text-align: start;
+  display: inline-block;
+  margin-left: 0rem;
+}
+.home .inicio {
+  font-size: 1.5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .inputini {
+  width: 80%;
+  text-align: start;
+  padding: .5rem .25rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .direita5 {
+  width: 25%;
+  text-align: start;
+  display: inline-block;
+  margin-left: 0rem;
+}
+.home .fim {
+  font-size: 1.5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.home .inputfim {
+  width: 80%;
+  text-align: start;
+  padding: .5rem .25rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }

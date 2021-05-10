@@ -1,12 +1,16 @@
 import * as core from '@angular/core';
+
+
 @core.Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
+
 export class HomeComponent implements core.OnInit {
   formac = [{}];
   exper = [{}];
+
   constructor() { }
 
   ngOnInit(): void {
@@ -24,7 +28,7 @@ export class HomeComponent implements core.OnInit {
   }
   adcionarexper(): void {
     this.exper.push({});
-    console.log('adicionar');
+    console.log('Adicionar');
   }
   removerexper(): void {
     this.exper.pop();

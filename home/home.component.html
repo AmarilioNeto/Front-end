@@ -1,6 +1,6 @@
 <html>
-<mat-card class="home mat-elevativion-z3">
-  <mat-card-title class="title">Informações Gerais</mat-card-title>
+<mat-card  class="home mat-elevativion-z3">
+  <mat-card class="title">Informações Gerais</mat-card>
   <form class='form'>
     <label class="nome">Nome:</label>
     <div>
@@ -22,15 +22,16 @@
   <div>
 <input class='inputed'>
   </div>
-  <div class='tudo1'>
+    <div class='tudo1'>
   <div class='esquerda1'>
-<div class='telefone'>Telefone:</div>
-<input class='inputtel'>
+<label class='telefone'>Telefone:</label>
+<input type="text" matInput mask="(00) 00000-0000" class='inputtel'>
 </div>
   <div class='direita1'>
     <div class='email'>E-mail:</div>
-    <input class='inputem'>
-  </div>
+    <input pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required class='inputem' />
+   </div>
+   <div class ='submit'><input type="submit" value="Checar"></div>
 </div>
 <div class='resumo'>Resumo:</div>
 <input class='inputres'>
@@ -42,15 +43,23 @@
   </div>
 <br>
   <ul>
-    <div *ngFor="let form of formac">
-    <div><input value="curso"></div>
-    <br>
-    <div><input value="instituição"/></div>
-    <br>
-       <div><input value="conclusão"></div>
-       <br>
-        <div><button (click)='removerfor()'>Remover</button> </div>
+    <div *ngFor="let form of formac" class='tudo2 '>
+      <div class='esquerda2'>
+    <div class='curso'>Curso</div>
+    <div><input class='inputcur'></div>
   </div>
+     <div class='direita2'>
+       <div class='instituição'>Instituição</div>
+     <div><input class='inputinst'></div>
+    </div>
+    <br>
+    <div class=esquerda3>
+    <div class='conclusão'>Conclusão</div>
+       <div><input type='text' matInput mask=" d0/M0/0000" class='inputcon' ></div>
+       <br>
+        <div><button (click)='removerfor()' class='remover'>Remover:</button></div>
+      </div>
+    </div>
   </ul>
   <br>
   <div class='experiencia'>Expêrincias</div>
@@ -59,20 +68,33 @@
 <button (click)='adcionarexper()'>Adiconar Expêriencia </button>
   </div>
     <ul>
-      <div *ngFor="let expe of exper">
-      <div><input value="cargo"></div>
-      <br>
-     <div> <input value="empresa"/></div>
-     <br>
-      <div>
-      <input value="descrição"></div>
-      <br>
-      <div><input value="inicio"></div>
-      <br>
-      <div><input value="fim"></div>
-      <br>
-      <div><button (click)='removerexper()'>Remover</button></div>
+      <div *ngFor="let expe of exper" class='tudo3'>
+      <div class='esquerda4'>
+        <div class='cargo'>Cargo</div>
+        <div><input class='inputcar'></div>
+      </div>
+      <div class='direita3'>
+      <div  class='empresa'>Empresa</div>
+     <div><input class='inputemp'></div>
     </div>
+     <br>
+     <div class='esquerda5'>
+     <div class='descrição'>Descrição</div>
+      <div><input class='inputdesc'></div>
+    </div>
+      <div class='direita4'>
+        <div class='inicio'>Inicio</div>
+      <div><input type='text' matInput mask=" d0/M0/0000" class='inputini'></div>
+      </div>
+      <div class='direita5'>
+        <div class='fim'>Fim</div>
+      <div><input type='text' matInput mask=" d0/M0/0000" class='inputfim'></div>
+    </div>
+      <br>
+      <br>
+      <div><button (click)='removerexper()' class='remover'>Remover</button></div>
+    </div>
+
     </ul>
     <br>
     <br>
